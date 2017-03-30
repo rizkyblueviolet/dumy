@@ -1,0 +1,90 @@
+.bcreg {
+	background-color:#d10869;
+	overflow:hidden;
+	display:block
+}
+
+.bcol {
+	background:-webkit-radial-gradient(70% 70% ellipse,#9e003a 8%,#9e003a 42%,#9e003a 58%);
+	background:radial-gradient(ellipse at 70% 70%,#9e003a 8%,#9e003a 42%,#9e003a 58%);
+	height:100%;
+	pointer-events:none;
+	position:absolute;
+	width:100%
+}
+
+/*
+.bcol {
+	background:-webkit-radial-gradient(70% 70% ellipse,#ee583f 8%,#d92d77 42%,#bd3381 58%);
+	background:radial-gradient(ellipse at 70% 70%,#ee583f 8%,#d92d77 42%,#bd3381 58%);
+	height:100%;
+	pointer-events:none;
+	position:absolute;
+	width:100%
+}
+
+*/
+.bcrot {
+	-webkit-animation:GradientRotation 12s steps(120) infinite;
+	animation:GradientRotation 12s steps(120) infinite;
+	margin-left: -100%;
+	margin-top: -50%;
+	min-height: 300%;
+	min-width: 300%;
+	padding-bottom: 75%;
+	padding-top: 75%;
+}
+.bcjin {
+	z-index:1;
+}
+@-webkit-keyframes GradientRotation {
+	0% {
+		-webkit-transform:rotate(0deg);
+		transform:rotate(0deg)
+	}
+	to {
+		-webkit-transform:rotate(360deg);
+		transform:rotate(360deg)
+	}
+}
+@keyframes GradientRotation {
+	0% {
+		-webkit-transform:rotate(0deg);
+		transform:rotate(0deg)
+	}
+	to {
+		-webkit-transform:rotate(360deg);
+		transform:rotate(360deg)
+	}
+}
+.f20p {
+font-size:20px;
+}
+.f25p {
+font-size:25px;
+}
+.f30p {
+font-size:20px ;
+}
+.f35p {
+font-size:35px ;
+}
+@media screen and (max-width:767px){
+.f20p {
+font-size:10px;
+}
+.f25p {
+font-size:15px;
+}
+.f30p {
+font-size:20px;
+}
+.f35p {
+font-size:25px;
+}
+}
+
+
+body {
+	font-family: Roboto, Sans serif;
+}

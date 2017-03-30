@@ -1,0 +1,262 @@
+
+.getvarprod {
+	display:none !important;
+}
+a {
+	text-decoration:none !important;
+}
+.sbawesome {
+	width: 20px;
+	height: 20px !important;
+	overflow: hidden;
+	font-size: 20px !important;
+	text-decoration: none !important;
+}
+.sbawesome:hover , .sbawesome:focus {
+	text-decoration: none !important;
+}
+.probok:hover .sbtw {
+	color:#1da1f2;
+}
+.sbtw {
+	color:#999;
+}
+.probok:hover .sbtw:hover {
+	color:#f45d22;
+}
+.sbfb {
+	color:#999;
+}
+.probok:hover .sbfb {
+	color:#4267b2;
+}
+.probok:hover .sbfb:hover {
+	color:#f45d22;
+}
+.sbgp {
+	color:#db4437;
+}
+.sbgp:hover {
+	color:#f45d22;
+}
+
+.tablebar {
+	font-size: 11px;
+    color: rgba(0,0,0,.54);
+}
+
+.thumbnail-post {
+	width:100%; 
+	text-align:center; 
+	margin:0px 0px 0px 0px; 
+	border-radius: 3px 3px 0px 0px;
+	}
+.product-image {
+	text-align:center;
+	}
+
+.bersih:after {
+	clear: both;
+}
+.bersih:before , .bersih:after {
+	display: table;
+	line-height: 0;
+	content: "";
+}
+a:-webkit-any-link {
+	text-decoration:none !important;
+}
+.elliplabe {
+	white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+.bersih {
+	
+}
+
+.gamattrib {
+	max-width: 13px;
+	display: inline-block;
+	margin-right: 2px;
+	vertical-align: middle !important;
+	box-sizing:border-box;
+	text-align: right !important;
+	line-height: 22px;
+}
+.samp3 {
+	width: 23.404255319148934%;
+	display: block;
+	float: left;
+	margin-left: 2.127659574468085%;
+	box-sizing: border-box;
+}
+.samp7 {
+	width: 74.46808510638297%;
+	display: block;
+	float: left;
+	box-sizing: border-box;
+}
+.sampf {
+	width: 100%;
+	display: block;
+	float: left;
+	box-sizing: border-box;
+}
+
+.barisan:after {
+	clear: both;
+
+}
+.barisan:before, .barisan:after {
+	display: table;
+	line-height: 0;
+	content: "";
+}
+.barisan {
+	width: 100%;
+}
+
+.prodrev {
+	width: 100%;
+	box-sizing: border-box;
+	border-top: 1px dashed #eee;
+	padding: 3px 6px 6px 6px;
+	border-left: 0;
+	border-right: 0;
+	height: 57px;
+	position: relative;
+	font-family: open sans,tahoma,sans-serif;
+	font-size: 13px;
+	line-height: 22px;
+	color: #606060;
+}
+.bokharna {
+	padding:6px;
+	
+}
+.probok:hover {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+
+.probok {
+	border-radius:2px;
+	padding: 0px;
+	margin: 4px;
+
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.16),0 1px 5px 0 rgba(0,0,0,0.12) !important;
+	box-sizing:border-box;
+	
+}
+.containproduct:before, .containproduct:after {
+	clear:both;
+	content:' ';
+	display:block;
+}
+.befharga {
+	height: 32px;
+	min-height: 0;
+	line-height: 25px;
+	margin-left: 0;
+	margin-top: 0;
+	width:100%;
+	display: block;
+	float: left;
+	box-sizing: border-box;
+}
+.containproduct {
+	width: 90%;	
+	margin:auto;
+}
+.gambar {
+	width: 100%;
+	min-height: 150px;
+	text-align: center;
+}
+.probok:hover .prodnama {
+	color: #0f9d58
+}
+.probok:hover .prodnama:hover {
+	color:#f45d22;
+}
+.prodnama {
+	font-size: 16px;
+	line-height: 20px;
+	max-height: 40px;
+	margin-top: 8px;
+		margin-top: 6px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-break: break-word;
+	height: 39px;
+	font-weight: 600;
+	display: block;
+	color:rgba(0,0,0,.7);
+	white-space:normal;
+}
+
+.prodharga {
+	white-space:normal;
+	color: #d92d77;
+	font-size: 15px;
+	font-weight: 500;
+	display: inline-block;
+	margin: 8px 0px;
+	line-height:25px;
+}
+
+
+.prodlic {
+	margin:0px;
+	text-decoration:none;
+	display:block;
+	float:left;
+	box-sizing: border-box;
+	padding: 0px;
+}
+.barpro {
+	margin:auto;
+	display:block;
+	width:100%;
+}
+.tet {
+	background-color:gray;
+	border:1px solid blue;
+}
+.bet {
+
+}
+
+
+
+/*
+make responsive
+*/
+
+
+@media screen and (min-width:1441px){
+.prodlic {width:16%;}
+
+}
+@media screen and (max-width:1440px){
+.prodlic {width:20%;}
+
+}
+@media screen and (max-width:1024px){
+.prodlic {width:25%;}
+
+}
+@media screen and (max-width:768px){
+.prodlic {width:33%;}
+.containproduct { width: 100%;}
+}
+@media screen and (max-width: 480px){
+.prodlic {width:50%;}
+
+
+}
+@media screen and (max-width:320px){
+.prodlic {width:100%;}
+
+}
