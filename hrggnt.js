@@ -13,8 +13,16 @@ function bukaTabed(aks, namaTabed) {
     aks.currentTarget.className += ' terbuka';
 }
 
+var gghh = new Date();
+    var cghh = gghh.getFullYear();
+    document.getElementById('chngdthn').innerHTML = cghh;
+	
 function gntHrg(){
 	
+var gghh = new Date();
+
+    var cghh = gghh.getFullYear();
+    document.getElementById('chngdthn').innerHTML = cghh;
 	//ambl hrg
 
 
@@ -140,4 +148,44 @@ for (rk = 0; rk < jmltag; rk++) {
 	chillink.removeChild(linkgam);
 }	
 
+}
+
+	var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i = 0;
+  var slides = document.getElementsByClassName('jadiimgslide');
+  var dots = document.getElementsByClassName('kelasimg');
+  var doss = document.getElementsByClassName('isiimg');
+  var hanyasatu = document.getElementsByClassName('imgctr')
+  var captionKecil = document.getElementById('capketkecil');
+  if (n > slides.length) {slideIndex = 1} <!--membalik slide ke awal -->
+  if (n < 1) {slideIndex = slides.length} <!--nomor slide ke terakhir -->
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = 'none';
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(' active', '');
+  }
+  for (i = 0; i < doss.length; i++) {
+      doss[i].className = doss[i].className.replace(' actives', '');
+  }
+  for (i = 0; i < hanyasatu.length; i++) {
+	  hanyasatu[i].className = hanyasatu[i].className.replace(' satusatunya', '');
+  }
+  
+  slides[slideIndex-1].style.display = 'block';
+  dots[slideIndex-1].className += ' active';
+  doss[slideIndex-1].className += ' actives';
+  hanyasatu[slideIndex-1].className += ' satusatunya';
+  captionKecil.innerHTML = dots[slideIndex-1].alt;
 }
